@@ -1,16 +1,11 @@
-# Python & Jupyter
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv/
 venv/
-ENV/
-env/
 .DS_Store
+# raw Kaggle download (we commit the compressed copy instead)
+data/IMDB Dataset.csv
 
-# Reference folder (keeps local sample untouched without pushing to main)
+# Nested reference clone
 formative-repo/
-
-# Uncompressed datasets (large files > 100MB)
-data/*.csv
-!data/GaltonFamilies.csv
