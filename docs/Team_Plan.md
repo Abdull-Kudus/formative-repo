@@ -1,4 +1,4 @@
-# Team plan (internal — not graded)
+# Team plan (internal - not graded)
 
 ## 1. Who owns what (3 members, 4 parts)
 
@@ -6,7 +6,7 @@ Each member owns their assigned deliverable completely:
 
 | | Member 1 | Member 2 | Member 3 |
 |---|---|---|---|
-| **Assignment** | **Part 1** — Probability Distributions (EM) | **Part 2** — Bayesian Probability | **Part 3** (Manual Calculation) & **Part 4** (Code) |
+| **Assignment** | **Part 1** - Probability Distributions (EM) | **Part 2** - Bayesian Probability | **Part 3** (Manual Calculation) & **Part 4** (Code) |
 | **Deliverables** | `notebooks/Part1_Probability_Distributions_EM_Algorithm.ipynb` | `notebooks/Part2_Bayesian_Probability_IMDb_Reviews.ipynb` | `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf`<br>`notebooks/Part4_Gradient_Descent_in_Code.ipynb` |
 | **README Ownership** | README Part 1 section | README Part 2 section, `requirements.txt` | README Parts 3 & 4 sections |
 
@@ -37,7 +37,7 @@ Each member builds **their own deliverable** in the main repo section by section
 4. `Part 4: add SciPy derivative function and chain-rule validation`
 5. `Part 4: add gradient descent loop with printed steps and plots`
 
-Then each member adds their README part in a separate commit. Do not paste everything in one commit — the Git log is a graded proof of contribution.
+Then each member adds their README part in a separate commit. Do not paste everything in one commit - the Git log is a graded proof of contribution.
 
 Before committing, each person must run their notebook and be able to explain every line (use `docs/Presentation_Questions_and_Answers.md`).
 
@@ -65,7 +65,7 @@ Before committing, each person must run their notebook and be able to explain ev
 | 2 | Member 2 | Dataset, counting rule, why P(Positive \| keyword) only |
 | 2 | Member 3 | Walk through all four probabilities for one keyword (e.g. "waste") |
 | 2 | Member 1 | Keyword justification + rejected candidates |
-| 3 | Member 3 | Handwritten manual calculation PDF: setup, chain rule, updates 1–3, and trend |
+| 3 | Member 3 | Handwritten manual calculation PDF: setup, chain rule, updates 1-3, and trend |
 | 4 | Member 3 | SciPy derivative function, code update loop matching Part 3 |
 | 4 | Member 1 | Parameter and error plots |
 | 4 | Member 2 | Learning-rate choice, final predictions, convergence after 2000 steps |
@@ -76,7 +76,7 @@ Before committing, each person must run their notebook and be able to explain ev
 - [ ] GitHub repo link (commits from all three members)
 - [ ] `README.md` with real names filled in
 - [ ] All three notebooks run top to bottom (Kernel → Restart & Run All) so outputs and figures are saved
-- [ ] `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf` — handwritten, scanned, one file
+- [ ] `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf` - handwritten, scanned, one file
 - [ ] Contribution PDF: fill in the contribution sheet linked in the brief → File → Download → PDF
 - [ ] Rehearse the live test height with 3 random values (e.g. 62, 67, 73)
 
