@@ -2,9 +2,9 @@
 
 | Member | Notebook they own (Git commits) | Part 3 — Gradient Descent Manual Calculation |
 |---|---|---|
-| Member 1 — *name* | Part 1 — Probability Distributions (EM Algorithm) | Writer 1: setup, chain rule, update 1 |
-| Member 2 — *name* | Part 2 — Bayesian Probability | Writer 2: updates 2 and 3, trend |
-| Member 3 — *name* | Part 4 — Gradient Descent in Code | Presents update 3 and the trend |
+| Member 1 — *name* | Part 1 — Probability Distributions (EM Algorithm) | Update 2 |
+| Member 2 — *name* | Part 2 — Bayesian Probability | Update 3 + trend summary |
+| Member 3 — *name* | Part 4 — Gradient Descent in Code | Owner: setup, chain-rule derivation, update 1; scans the PDF |
 
 ## Repository layout
 
@@ -92,7 +92,7 @@ Why these: each positive word moves the probability from 0.50 to above 0.80, eac
 
 ## Part 3 — Gradient Descent Manual Calculation (by hand)
 
-Handwritten by two members (Writer 1: setup, chain rule, update 1; Writer 2: updates 2–3 and trend): `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf` (scanned). Typed key: `docs/Part3_Gradient_Descent_Manual_Calculation_TypedReference.pdf`.
+Handwritten, at least one update per member (Member 3: setup, chain rule, update 1; Member 1: update 2; Member 2: update 3 and trend): `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf` (scanned). Typed key: `docs/Part3_Gradient_Descent_Manual_Calculation_TypedReference.pdf`.
 Matrix form: ŷ = Xm + b, J = (1/n)Σ(ŷ − y)², ∂J/∂m = (2/n)Xᵀ(ŷ − y), ∂J/∂b = (2/n)·Σ(ŷ − y), learning rate α = 0.01.
 
 | Update | m after | b after | J before update |

@@ -5,9 +5,9 @@ geometry: margin=2cm
 
 > **What this is.** Part 3 is gradient descent worked out by hand on paper. Part 4 (*Gradient Descent in Code*) runs the same problem in Python and must give the same numbers.
 >
-> **How to use this file.** This is the typed answer key. The graded submission must be **handwritten**: it is written by **two people**: **Writer 1** copies Pages 1–2 (setup, chain-rule derivation, update 1); **Writer 2** continues from the values Writer 1 ends with and copies Pages 3–5 (updates 2 and 3, summary and trend). Each writer signs their pages, and the pages are scanned into one PDF (see `Team_Plan.md`, section 3). Write every line, including the "small" ones — the rubric penalises skipped arithmetic.
+> **How to use this file.** This is the typed answer key. The graded submission must be **handwritten**: each member writes at least one full update: **Member 3** copies Pages 1–2 (setup, chain-rule derivation, update 1); **Member 1** copies Page 3 (update 2); **Member 2** copies Pages 4–5 (update 3, summary and trend). Each person starts by restating the values they received, and signs their pages, and the pages are scanned into one PDF (see `Team_Plan.md`, section 3). Write every line, including the "small" ones — the rubric penalises skipped arithmetic.
 
-# Page 1 — Setup and Chain-Rule derivation (Writer 1)
+# Page 1 — Setup and Chain-Rule derivation (Member 3)
 
 ## 1. The model in matrix form
 
@@ -54,7 +54,7 @@ X^T=\begin{bmatrix}1&4\\3&10\end{bmatrix},\ \ \frac2n=\frac22=1$$
 
 \newpage
 
-# Page 2 — Update 1 (Writer 1)
+# Page 2 — Update 1 (Member 3)
 
 Start: $\mathbf m=[-1,\ 2]^T$, $b=1$.
 
@@ -86,7 +86,7 @@ $$b=1-0.01(12)=1-0.12=0.88\quad\Rightarrow\quad \mathbf b=[0.88,\ 0.88]^T$$
 
 \newpage
 
-# Page 3 — Update 2 (Writer 2 continues from Writer 1's result)
+# Page 3 — Update 2 (Member 1)
 
 Start: $\mathbf m=[-1.45,\ 0.87]^T$, $b=0.88$.
 
@@ -116,7 +116,7 @@ $$b=0.88-0.01(-5.18)=0.88+0.0518=0.9318$$
 
 \newpage
 
-# Page 4 — Update 3 (Writer 2)
+# Page 4 — Update 3 (Member 2)
 
 Start: $\mathbf m=[-1.3316,\ 1.1808]^T$, $b=0.9318$.
 
@@ -151,7 +151,7 @@ $J=\frac12(4.612941746176+0.167945875344)=\frac12(4.78088762152)=2.39044381$
 
 \newpage
 
-# Page 5 — Summary and trend (Writer 2)
+# Page 5 — Summary and trend (Member 2)
 
 | Update | $\mathbf m$ before | $b$ before | $\hat{\mathbf y}$ | $\mathbf e$ | $J$ before | $\partial J/\partial\mathbf m$ | $\partial J/\partial b$ | $\mathbf m$ after | $b$ after |
 |---|---|---|---|---|---|---|---|---|---|

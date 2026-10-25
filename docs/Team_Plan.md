@@ -2,11 +2,13 @@
 
 ## 1. Who owns what (3 members, 4 parts)
 
+Member 3 = the person who built this sample repo (owns Parts 3 and 4).
+
 | | Member 1 | Member 2 | Member 3 |
 |---|---|---|---|
 | Notebook & commits | Part 1 — Probability Distributions (EM) | Part 2 — Bayesian Probability | Part 4 — Gradient Descent in Code |
 | Shared files | README Part 1 | README Part 2, `requirements.txt` | README Part 3–4 |
-| Part 3 — Gradient Descent Manual Calculation (paper) | **Writer 1:** setup, chain rule, update 1 | **Writer 2:** updates 2 and 3, trend | Scans the PDF; presents update 3 |
+| Part 3 — Gradient Descent Manual Calculation (paper) | Update 2 | Update 3 + trend summary | **Owner:** setup, chain-rule derivation, update 1; checks and scans all pages |
 
 The rubric scores **equal speaking time in every part**, so everyone speaks in every part (below). Owning code ≠ presenting it alone.
 
@@ -42,10 +44,13 @@ Before committing, each person must run their script and be able to explain ever
 ## 3. Part 3 on paper
 
 - Use **paper, not the board.** The deliverable is a scanned PDF; during the presentation show the PDF on screen. Write on plain white A4 with a dark pen, name + signature at the top of each page.
-- **Two writers, one continuous solution.** Writer 1 copies Pages 1–2 of the typed key (setup, chain rule, update 1) and ends with a boxed result: m = [−1.45, 0.87], b = 0.88. Writer 2 starts Page 3 by restating those values ("From Writer 1: m = [−1.45, 0.87], b = 0.88") and copies Pages 3–5 (updates 2 and 3, summary and trend). The handwriting change is fine — the restated values show it is one connected solution.
-- **Rubric risk:** the rubric asks for "at least one full iteration per member". With two writers, Member 3 has no handwritten iteration. To reduce the risk, Member 3 presents update 3 and must be able to redo it on request. The safest option is still for Member 3 to hand-write update 3.
+- **Member 3 owns Part 3** and writes the hardest pages: Pages 1–2 of the typed key (setup, chain-rule derivation, update 1), ending with a boxed result: m = [−1.45, 0.87], b = 0.88.
+- **Member 1** writes Page 3 (update 2). Start by restating the values received: "From update 1: m = [−1.45, 0.87], b = 0.88".
+- **Member 2** writes Pages 4–5 (update 3, summary and trend). Start with "From update 2: m = [−1.3316, 1.1808], b = 0.9318".
+- This gives every member one full iteration, as the rubric requires ("at least one full iteration per member"). The handwriting changes are fine; the restated starting values show it is one connected solution.
+- Member 3 checks every page against the typed key before scanning.
 - Copy every line from `docs/Part3_Gradient_Descent_Manual_Calculation_TypedReference.pdf`, including the small arithmetic lines (e.g. "−1 − 0.45 = −1.45"). Box each final answer.
-- Scan with a phone scanner app (Google Drive "Scan", Microsoft Lens or Adobe Scan) → combine into **one** PDF in order: Writer 1's pages, then Writer 2's pages → save as `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf`.
+- Scan with a phone scanner app (Google Drive "Scan", Microsoft Lens or Adobe Scan) → combine into **one** PDF in page order: Member 3 (pages 1–2), Member 1 (page 3), Member 2 (pages 4–5) → save as `docs/Part3_Gradient_Descent_Manual_Calculation_Handwritten.pdf`.
 - "Using SciPy" applies to **Part 4 only**; Part 3 must be by hand.
 
 ## 4. Presentation running order (adjust to your time slot)
@@ -59,9 +64,9 @@ Before committing, each person must run their script and be able to explain ever
 | 2 | Member 2 | Dataset, counting rule, why P(Positive \| keyword) only |
 | 2 | Member 3 | Walk through all four probabilities for one keyword (e.g. "waste") |
 | 2 | Member 1 | Keyword justification + rejected candidates |
-| 3 | Member 1 | Setup, chain rule, update 1 (their handwriting) |
-| 3 | Member 2 | Update 2 (their handwriting) |
-| 3 | Member 3 | Update 3 and the trend (from Member 2's pages) |
+| 3 | Member 3 | Setup, chain rule, update 1 (their handwriting) |
+| 3 | Member 1 | Update 2 (their handwriting) |
+| 3 | Member 2 | Update 3 and the trend (their handwriting) |
 | 4 | Member 3 | SciPy derivative function and update code |
 | 4 | Member 1 | Plots and trend |
 | 4 | Member 2 | Learning-rate choice, final predictions, convergence after 2000 steps |
